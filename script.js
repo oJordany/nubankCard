@@ -3,7 +3,8 @@ const frontCard = document.querySelector("div.card")
 const backCard = document.querySelector("div.card-back")
 
 frontCard.addEventListener("mouseover", e => {
-    document.styleSheets[0].cssRules[7].style.content = null
+    const metalicEffect = document.styleSheets[0].cssRules[8]
+    metalicEffect.style.left == "-350px" ? metalicEffect.style.left = "950px" : metalicEffect.style.left = "-350px" 
 })
 
 frontCard.addEventListener("click", e => {
@@ -11,5 +12,10 @@ frontCard.addEventListener("click", e => {
 })
 
 backCard.addEventListener("click", e => {
-    activator.style.transform = "rotateY(360deg)"
+    activator.style.transform = "rotateY(0deg)"
 })
+
+
+// if (activator.style.transform == "rotateY(180deg)"){
+//     console.log("TIRA O EFEITO")
+// }

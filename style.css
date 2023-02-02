@@ -55,9 +55,12 @@ div.card-back {
     border-radius: 30px;
     overflow: hidden;
     position: absolute;
-    -webkit-backface-visibility: hidden;
-    /* Safari */
+    -webkit-backface-visibility: hidden;/* Safari */
     backface-visibility: hidden;
+}
+
+div.card-back:hover, div.card:hover{
+    cursor: pointer;
 }
 
 div.card-back {
@@ -74,9 +77,8 @@ div.card::before {
     background: rgba(255, 255, 255, 0.2);
     z-index: 100;
     transform: skewX(-30deg);
-    transition: 0.8s;
+    transition: 0.7s;
 }
-
 div.card:hover:before {
     left: 950px;
 }

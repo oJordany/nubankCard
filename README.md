@@ -1,7 +1,7 @@
 # digitalClock
 <!-- https://ojordany.github.io/nubankcard/ -->
 <div align="center">
- <a href="https://ojordany.github.io/nubankcard/" alt='next'><img align="center"src="https://cdn.discordapp.com/attachments/897609680073941012/963207775045971988/pngwing-edit.png" alt="clique-cursor" width="100px"></a>
+ <a href="https://ojordany.github.io/nubankCard/" alt='next'><img align="center"src="https://cdn.discordapp.com/attachments/897609680073941012/963207775045971988/pngwing-edit.png" alt="clique-cursor" width="100px"></a>
  <h2>Click here to see the project</h2>
 </div>
 
